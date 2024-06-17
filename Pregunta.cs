@@ -18,7 +18,7 @@ namespace AskMeInform
         {
             Id = id;
             Texto = texto;
-            Opciones = opciones;
+            Opciones = opciones; // Cuatro opciones de respuesta
             RespuestaCorrectaId = respuestaCorrectaId;
         }
     }
