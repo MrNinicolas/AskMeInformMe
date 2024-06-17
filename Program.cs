@@ -11,7 +11,7 @@ namespace AskMeInform
         {
             Conexion conexionBD = new Conexion();
             MySqlConnection conexion = conexionBD.GetConexion();
-
+            //Verificando la conexión con la BD
             if (conexion.State == ConnectionState.Open)
             {
                 Console.WriteLine("Conexión establecida correctamente.");
